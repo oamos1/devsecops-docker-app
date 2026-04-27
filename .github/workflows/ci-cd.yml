@@ -44,7 +44,7 @@ jobs:
 
       # 🔐 7. Container security scan
       - name: Run Trivy scan
-        uses: aquasecurity/trivy-action@0.24.0
+        uses: aquasecurity/trivy-action@master
         with:
           image-ref: 'devs-secopsapp'
           exit-code: '1'
